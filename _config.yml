@@ -2,3 +2,11 @@ title: Gherardo Varando
 description: Gherardo personal web page
 plugins: 
    - jemoji
+
+default: 
+   - 
+     scope:
+       path: ""
+       type: "pages"
+     values:
+       layout: "default"
