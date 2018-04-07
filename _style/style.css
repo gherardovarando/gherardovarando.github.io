@@ -8,16 +8,20 @@ header {
  color: #ceefce;
 }
 
+
 div.title {
  position: relative;
- left: 0; 
+ left: 0;
+display: inline; 
 }
 
 ul.menu {
  position: relative;
  right: 0;
+ display:inline;
 }
 
 li.menu-item {
  display: inline;
+ 
 }
