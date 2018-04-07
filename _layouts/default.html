@@ -12,16 +12,19 @@
 
     <body>
 
-        <nav>
-
-            <h3>First Heading</h3>
-
-            <ul class="menu">
-                <li><i class="fas fa-address-card"></i>   <a href="{{site.baseurl}}/">About</a></li>
-                <li><i class="fas fa-copy"></i>   <a href="{{site.baseurl}}/publications">Publications</a></li>
-                <li><i class="fas fa-code"></i>     <a href="{{site.baseurl}}/software">Software</a></li>
-            </ul>
-        </nav>
+        <header>
+                <div class = "title"> {{page.title}} </div>
+		<nav>
+	      	<ul class="menu">
+		      	<li class="menu-item">
+                           <i class="fas fa-address-card"></i>   <a href="{{site.baseurl}}/">About</a></li>
+		      	<li class="menu-item">
+                           <i class="fas fa-copy"></i>   <a href="{{site.baseurl}}/publications">Publications</a></li>
+		       	<li class="menu-item">
+                           <i class="fas fa-code"></i>     <a href="{{site.baseurl}}/software">Software</a></li>
+         	</ul>
+	       	</nav>
+        </header>
 
         <main>
 
