@@ -11,17 +11,15 @@ header {
 }
 
 .flex-item {
- margin: 5px;
+ margin: 10px;
 }
 
 div.title {
- display: inline;
- width: 30%; 
+ display: inline; 
 }
 
 ul.menu {
  display:inline;
- width: 30%;
 }
 
 li.menu-item {
