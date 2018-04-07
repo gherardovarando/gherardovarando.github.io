@@ -7,19 +7,19 @@ header {
  background-color: #02001c;
  color: #ceefce;
  display: flex;
+ justify-content:  space-between;
 }
 
+.flex-item {
+ margin: 5px;
+}
 
 div.title {
- position: relative;
- left: 0;
  display: inline;
  width: 30%; 
 }
 
 ul.menu {
- position: relative;
- right: 0;
  display:inline;
  width: 30%;
 }
