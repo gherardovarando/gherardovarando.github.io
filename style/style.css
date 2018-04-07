@@ -6,19 +6,22 @@ header {
  width: 100%;
  background-color: #02001c;
  color: #ceefce;
+ display: flex;
 }
 
 
 div.title {
  position: relative;
  left: 0;
-display: inline; 
+ display: inline;
+ width: 30%; 
 }
 
 ul.menu {
  position: relative;
  right: 0;
  display:inline;
+ width: 30%;
 }
 
 li.menu-item {
