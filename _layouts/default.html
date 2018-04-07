@@ -2,6 +2,7 @@
 
 <html>
     <head>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
         <meta charset="utf-8"/>
         <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
         <link rel="stylesheet" href="{{site.baseurl}}/style/style.css" />
@@ -10,21 +11,16 @@
     </head>
 
     <body>
-        <header>
-            <h1><a href="{{site.baseurl}}/">Welcome to {{ site.name }}</a></h1>
-                <h4>{{ site.description }}</h4>
-            <hr />
-        </header>
 
         <nav>
 
             <h3>First Heading</h3>
 
-            <ul>
-                <li><i class="icon-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
-                <li><i class="icon-mail"></i>   <a href="{{site.baseurl}}/contact">Contact</a></li>
-                <li><i class="icon-th"></i>     <a href="{{site.baseurl}}/archive">Archive</a></li>
-                <li><i class="icon-rss"></i>    <a href="{{site.baseurl}}/feed.xml">RSS Feed</a></li>
+            <ul class="menu">
+                <li><i class="fas fa-home"></i>   <a href="{{site.baseurl}}/">About</a></li>
+                <li><i class="fas fa-home"></i>   <a href="{{site.baseurl}}/_pages/publications">Publications</a></li>
+                <li><i class="fas fa-home"></i>     <a href="{{site.baseurl}}/_pages/software">Software</a></li>
+                <li><i class="fas fa-home"></i>    <a href="{{site.baseurl}}/_pages/"></a></li>
             </ul>
         </nav>
 
