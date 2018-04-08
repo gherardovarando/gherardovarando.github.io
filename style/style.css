@@ -16,6 +16,7 @@ header a {
 
 .hidden-text {
  width: 0;
+ display: inline;
  overflow: hidden;
 }
 
