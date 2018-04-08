@@ -12,6 +12,11 @@ header {
 
 header a {
  color: #ceefce;
+ width: 0;
+}
+
+header a:hover {
+ width: auto;
 }
 
 main {
