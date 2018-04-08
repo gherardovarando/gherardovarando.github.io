@@ -30,6 +30,8 @@ header a:hover .hidden-text {
 
 main {
  margin-top:70px;
+ margin-bottom: 70px;
+ height: 100%;
  width: 100%
 }
 
