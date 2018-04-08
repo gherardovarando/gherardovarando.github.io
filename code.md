@@ -5,6 +5,14 @@ title: Code
 
 All the code is available in github, [gherardovarando](https://github.com/gherardovarando?tab=repositories).  
 
+- MultiMap application
+- Leaflet plugins
+- R packages
+- Electron 
+- ImageJ and FIJI plugins
+- Atom packages
+
+
 #### Leaflet plugins
 
 - [leaflet-map-builder](https://github.com/gherardovarando/leaflet-map-builder)
@@ -30,4 +38,9 @@ The plugin is been developed to visualize mutlislice maps for example created fr
 #### R packages
 
 
-#### 
+#### ImageJ and FIJI plugins
+
+
+#### Atom packages
+
+ 
