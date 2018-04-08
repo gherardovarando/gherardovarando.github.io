@@ -1,44 +1,56 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-        <meta charset="utf-8"/>
-        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-        <link rel="stylesheet" href="{{site.baseurl}}/style/style.css" />
-        <meta name="description" content="{{site.description}}"/>
-        <meta name="author" content="{{site.author}}"/>
-    </head>
+  <head>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <meta charset="utf-8"/>
+    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/style/style.css" />
+    <meta name="description" content="{{site.description}}"/>
+    <meta name="author" content="{{site.author}}"/>
+  </head>
 
-    <body>
+  <body>
 
-        <header>
-                <div class = "title flex-item"> <strong> {{page.title}}</strong> </div>
-		<nav>
-	      	<ul class="menu flex-item">
-		      	<li class="menu-item">
-                            <a href="{{site.baseurl}}/"><i class="fas fa-home" title="Home"></i>Home</a></li>	
-                        <li class="menu-item">
-                            <a href="{{site.baseurl}}/info"><i class="fas fa-address-card" title="Info"></i></a></li>		
-                 	<li class="menu-item">
-                            <a href="{{site.baseurl}}/publications"><i class="fas fa-copy" title="Publications"></i></a></li>
-	 	       	<li class="menu-item">
-                            <a href="{{site.baseurl}}/software"><i class="fas fa-code" title="Software"></i></a></li>
-          	</ul>
-	       	</nav>
-        </header>
+    <header>
+      <div class = "title flex-item"> <strong> {{page.title}}</strong> </div>
+      <nav>
+        <ul class="menu flex-item">
+          <li class="menu-item">
+            <a href="{{site.baseurl}}/"><i class="fas fa-home" title="Home"></i>
+              <div class="hidden-text">Home</div>
+            </a>
+          </li>	
+          <li class="menu-item">
+            <a href="{{site.baseurl}}/info"><i class="fas fa-address-card" title="Info"></i>
+              <div class="hidden-text">Contacts and Info</div>
+            </a>
+          </li>		
+          <li class="menu-item">
+            <a href="{{site.baseurl}}/publications"><i class="fas fa-copy" title="Publications"></i>
+              <div class="hidden-text">Publications</div>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="{{site.baseurl}}/software"><i class="fas fa-code" title="Software"></i>
+              <div class="hidden-text">Software</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <main>
+    <main>
 
-            {{ content }}
+    {{ content }}
 
-        </main>
+    </main>
 
-        <footer>
-            <p class="flex-item">&copy; <time>2018</time> {{ site.author }}</p>
-        </footer>
+    <footer>
+      <p class="flex-item">&copy; <time>2018</time> {{ site.author }}</p>
+    </footer>
 
-        <script src="{{site.baseurl}}/scripts/script.js"></script>
-    </body>
+    <script src="{{site.baseurl}}/scripts/script.js"></script>
+  </body>
 
 </html>

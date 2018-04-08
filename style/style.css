@@ -12,10 +12,14 @@ header {
 
 header a {
  color: #ceefce;
- width: 0;
 }
 
-header a:hover {
+.hidden-text {
+ width: 0;
+ overflow: hidden;
+}
+
+header a:hover .hidden-text {
  width: auto;
 }
 
