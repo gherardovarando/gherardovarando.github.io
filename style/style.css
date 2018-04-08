@@ -41,6 +41,9 @@ div.title {
 
 ul.menu {
  display:inline;
+ position:relative;
+ top:auto;
+ bottom:auto;
 }
 
 li.menu-item {
