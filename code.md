@@ -5,9 +5,9 @@ title: Code
 
 All the code is available in github, [gherardovarando](https://github.com/gherardovarando?tab=repositories).  
 
-### Leaflet 
+#### Leaflet plugins
 
-- leaflet-map-builder
+- [leaflet-map-builder](https://github.com/gherardovarando/leaflet-map-builder) [![npm version](https://badge.fury.io/js/leaflet-map-builder.svg)](https://badge.fury.io/js/leaflet-map-builder), 
 
 - leafelt-csvtiles
 
@@ -15,7 +15,7 @@ All the code is available in github, [gherardovarando](https://github.com/gherar
 
 - map.schema.json 
 
-### R packages
+#### R packages
 
 
-### 
+#### 
