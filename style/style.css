@@ -58,3 +58,12 @@ ul.menu {
 li.menu-item {
  display: inline; 
 }
+
+main ul {
+ 
+}
+
+main li {
+  padding: 5px;
+}
+
