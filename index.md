@@ -11,6 +11,6 @@ title: Home
 I am a PhD student at the Universidad Politecnica de Madrid, in the [Computational Intelligence Group](http://cig.fi.upm.es).
 
 
-### Research intersts 
+### Research interests 
 
 
