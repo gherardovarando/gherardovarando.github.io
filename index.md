@@ -3,4 +3,5 @@ layout: default
 title: Home
 ---
 
-## Gherardo home page
+
+![gherardo photo]({{ site.baseurl }}/images/gvarando.png "gherardo photo")
