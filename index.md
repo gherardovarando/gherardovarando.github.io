@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gherardo Varando
+title: Home
 ---
 
 ## Gherardo home page
