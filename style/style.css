@@ -15,13 +15,11 @@ header a {
 }
 
 .hidden-text {
- width: 0;
- display: inline;
- overflow: hidden;
+ display: none;
 }
 
 header a:hover .hidden-text {
- width: auto;
+ display: inline;
 }
 
 main {
