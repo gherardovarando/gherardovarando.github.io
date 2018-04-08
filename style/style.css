@@ -19,6 +19,7 @@ main {
 footer {
  display: flex;
  bottom: 0;
+ position: absolute;
  width: 100%;
  justify-content:  space-between;
 }
