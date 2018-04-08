@@ -10,12 +10,26 @@ header {
  justify-content:  space-between;
 }
 
+main {
+ position:relative;
+ top:50px;
+ width: 100%
+}
+
+footer {
+ display: flex;
+ bottom: 0;
+ width: 100%;
+ justify-content:  space-between;
+}
+
 .flex-item {
  margin: 10px;
 }
 
 div.title {
- display: inline; 
+ display: inline;
+ font-weight: bold; 
 }
 
 ul.menu {
@@ -23,6 +37,5 @@ ul.menu {
 }
 
 li.menu-item {
- display: inline;
- 
+ display: inline; 
 }
