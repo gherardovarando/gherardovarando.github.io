@@ -30,15 +30,12 @@ header a:hover .hidden-text {
 
 main {
  margin-top:70px;
- margin-bottom: 70px;
  height: 100%;
  width: 100%
 }
 
 footer {
  display: flex;
- bottom: 0;
- position: relative;
  width: 100%;
  justify-content:  space-between;
  background-color: #02001c;
