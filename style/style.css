@@ -40,10 +40,7 @@ div.title {
 }
 
 ul.menu {
- display:inline;
- position:relative;
- top:auto;
- bottom:auto;
+ display:block;
 }
 
 li.menu-item {
