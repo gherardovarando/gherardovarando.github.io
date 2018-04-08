@@ -6,7 +6,8 @@ title: Home
 
 ![gherardo photo]({{ site.baseurl }}/images/gvarando.png "gherardo photo")
 
-###{:.left} Contacts
+{:.right}
+### Contacts
 
 ### Position
 
