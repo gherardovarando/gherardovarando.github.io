@@ -31,7 +31,11 @@ header a:hover .hidden-text {
 main {
  margin-top:70px;
  height: 100%;
- width: 100%
+ width: 100%;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top:5px;
+ padding-bottom:5px;
 }
 
 footer {
@@ -67,9 +71,4 @@ main li {
   padding: 5px;
 }
 
-div.content {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top:5px;
-  padding-bottom:5px;
-}
+
