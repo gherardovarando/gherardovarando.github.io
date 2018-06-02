@@ -5,13 +5,22 @@ layout: default title: Code
 All  code is available in github,
 [gherardovarando](https://github.com/gherardovarando?tab=repositories).  
 
-- MultiMap application
-- Leaflet plugins
-- R packages
-- Electron 
-- ImageJ and FIJI plugins
-- Atom packages
+- [MultiMapi](#multimap)
+- [Leaflet plugins](#leaflet-plugins)
+- [R packages](#r-packages)
+- [ImageJ and FIJI plugins](#imagej-plugins)
+- [Atom packages](#atom-packages)
+- [electrongui](#electrongui)
 
+
+
+#### MultiMap 
+
+ Application to visualize, edit and analyze spatial data. Developed using
+ electrongui.
+ [download](https://github.com/ComputationalIntelligenceGroup/MultiMap/releases)
+ and [user
+ guide](https://computationalintelligencegroup.github.io/MultiMap-documentation/)
 
 #### Leaflet plugins
 
@@ -55,7 +64,7 @@ All  code is available in github,
    
 
 
-#### ImageJ and FIJI plugins
+#### ImageJ plugins
 
 - [ObjCounter](https://github.com/ComputationalIntelligenceGroup/ObjCounter)
   ImageJ plugin for object segmentation and counting.
@@ -63,9 +72,16 @@ All  code is available in github,
 - [MaxLoGs](https://github.com/ComputationalIntelligenceGroup/MaxLoGs)
   Maximum of Laplacian of Gaussian filters.
   
--[MapTools](https://github.com/ComputationalIntelligenceGroup/Map_tools) 
+- [MapTools](https://github.com/ComputationalIntelligenceGroup/Map_tools) 
  An imageJ plugin to create and visualize maps (tileLayers).
 
 #### Atom packages
 
 - [map-viewer](https://atom.io/packages/map-viewer)
+
+#### electrongui 
+
+[electrongui](https://github.com/gherardovarando/electrongui) is a skeleton for GUI written in JS/Node/electron framework.
+There is a partial online [documentation](https://gherardovarando.github.io/electrongui/API.html).
+
+
