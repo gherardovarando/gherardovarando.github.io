@@ -1,4 +1,6 @@
---- layout: default title: Code ---
+--- 
+layout: default title: Code 
+---
 
 All  code is available in github,
 [gherardovarando](https://github.com/gherardovarando?tab=repositories).  
