@@ -2,10 +2,10 @@
 layout: default title: Code 
 ---
 
-All  code is available in github,
+All  code is hosted at github,
 [gherardovarando](https://github.com/gherardovarando?tab=repositories).  
 
-- [MultiMapi](#multimap)
+- [MultiMap](#multimap)
 - [Leaflet plugins](#leaflet-plugins)
 - [R packages](#r-packages)
 - [ImageJ and FIJI plugins](#imagej-plugins)
@@ -42,7 +42,7 @@ All  code is available in github,
   
   Multi level plugin for leaflet, the plugin define new methods for the Map
   object, a new control and new types of layers (``L.layerName.ml``).  The
-  plugin has been developed to visualize mutlislice maps for example created
+  plugin has been developed to visualize multi-slice maps for example created
   from bio images (confocal
   microscopy).[demo](https://gherardovarando.github.io/leaflet-multilevel/demo) 
 
@@ -53,7 +53,7 @@ All  code is available in github,
 #### R packages
 
 - [Rbmop](https://github.com/gherardovarando/Rbmop) 
-  Density and conditionañl density estimation with B-spline. 
+  Density and conditional density estimation with B-spline. 
 
 - [Rbnet](https://github.com/gherardovarando/Rbnet)
   Bayesian networks with B-spline densities.
@@ -73,7 +73,7 @@ All  code is available in github,
   Maximum of Laplacian of Gaussian filters.
   
 - [MapTools](https://github.com/ComputationalIntelligenceGroup/Map_tools) 
- An imageJ plugin to create and visualize maps (tileLayers).
+ An ImageJ plugin to create and visualize maps (tileLayers).
 
 #### Atom packages
 
