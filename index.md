@@ -7,6 +7,8 @@ title: Home
 
 [ORCID](https://orcid.org/0000-0002-6708-1103) 
 [Scholar](https://scholar.google.es/citations?user=ALjiTg0AAAAJ)
+[dblp](https://dblp1.uni-trier.de/pers/hd/v/Varando:Gherardo)
+[ResearchGate](https://www.researchgate.net/profile/Gherardo_Varando)
 
 ### Contacts
 
@@ -18,5 +20,9 @@ I am a PhD student at the Universidad Politecnica de Madrid, in the [Computation
 
 
 ### Research interests 
+
+Probabilistic graphical models and their application to machine learning, in
+particular binary classification problems.
+
 
 
