@@ -30,7 +30,7 @@ All  code is hosted at github,
    leaflet plugin to build a leaflet map starting from a configuration object
    that can be easily stored in JSON format (see [map.schema.json](https://github.com/gherardovarando/map.schema.json)).[demo](https://gherardovarando.github.io/leaflet-map-builder/) 
 
-- [leafelt-csvtiles](https://github.com/gherardo.varando/leaflet-csvtiles)
+- [leaflet-csvtiles](https://github.com/gherardovarando/leaflet-csvtiles)
   [![npmversion](https://badge.fury.io/js/leaflet-csvtiles.svg)](https://badge.fury.io/js/leaflet-csvtiles)
 
   leaflet plugin that load points from tiled csv files, using the amazing
