@@ -16,7 +16,7 @@ gherardo.varando[at]gmail.com
 
 ### Position
 
-I am a PhD student at the Universidad Politecnica de Madrid, in the [Computational Intelligence Group](http://cig.fi.upm.es).
+PhD in Artificial Intelligence from the Universidad Politecnica de Madrid. 
 
 
 ### Research interests 
