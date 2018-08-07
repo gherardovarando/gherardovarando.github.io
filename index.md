@@ -16,7 +16,7 @@ gherardo.varando[at]gmail.com
 
 ### Position
 
-PhD in Artificial Intelligence from the Universidad Politecnica de Madrid. 
+PostDoc at the Department of Mathematical Science, Copenhagen University. 
 
 
 ### Research interests 
