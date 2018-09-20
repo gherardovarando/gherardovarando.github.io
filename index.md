@@ -16,7 +16,8 @@ gherardo.varando[at]gmail.com
 
 ### Position
 
-PostDoc at the Department of Mathematical Science, Copenhagen University. 
+PostDoc at the Department of Mathematical Science, University of
+Copenhagen. 
 
 
 ### Research interests 
