@@ -12,7 +12,9 @@ All  code is hosted at github,
 - [Atom packages](#atom-packages)
 - [electrongui](#electrongui)
 
-
+The present personal site is built using Jekyll. 
+The simple template is homemade (by me) and you are free to use it
+[repo](https://github.com/gherardovarando/gherardovarando.github.io).  
 
 #### MultiMap 
 
