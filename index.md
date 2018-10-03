@@ -13,6 +13,7 @@ title: Home
 ### Contacts
 
 gherardo.varando [at] math.ku.dk
+
 gherardo.varando [at] gmail.com
 
 ### Position
