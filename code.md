@@ -54,17 +54,17 @@ The simple template is homemade and you are free to use it
 
 #### R packages
 
-- [Rbmop](https://github.com/gherardovarando/Rbmop) 
-  Density and conditional density estimation with B-spline. 
-
-- [Rbnet](https://github.com/gherardovarando/Rbnet)
-  Bayesian networks with B-spline densities.
-
 - [gmat](https://github.com/irenecrsn/gmat) (Authors: I. Cordoba and G. Varando)
   R package to generate graphically constrained matrices.
 
 - [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
   An R package for staged event trees :construction: 
+
+- [Rbmop](https://github.com/gherardovarando/Rbmop) 
+  Density and conditional density estimation with B-spline. 
+
+- [Rbnet](https://github.com/gherardovarando/Rbnet)
+  Bayesian networks with B-spline densities.
 
 
 #### ImageJ plugins
