@@ -13,7 +13,7 @@ All  code is hosted at github,
 - [electrongui](#electrongui)
 
 The present personal site is built using Jekyll. 
-The simple template is homemade (by me) and you are free to use it
+The simple template is homemade and you are free to use it
 [repo](https://github.com/gherardovarando/gherardovarando.github.io).  
 
 #### MultiMap 
@@ -63,7 +63,8 @@ The simple template is homemade (by me) and you are free to use it
 - [gmat](https://github.com/irenecrsn/gmat) (Authors: I. Cordoba and G. Varando)
   R package to generate graphically constrained matrices.
 
-   
+- [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
+  An R package for staged event trees :construction: 
 
 
 #### ImageJ plugins
