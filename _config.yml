@@ -1,7 +1,7 @@
 title: Gherardo Varando
 description: Gherardo personal web page
 author: Gherardo Varando
-plugins_dir: 
+plugins: 
    - jemoji
 
 default: 
