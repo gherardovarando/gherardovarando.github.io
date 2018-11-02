@@ -56,7 +56,7 @@ The simple template is homemade and you are free to use it
 #### R packages
 
 - [gmat](https://github.com/irenecrsn/gmat) (Authors: I. Cordoba and G. Varando)
-  R package to generate graphically constrained matrices.
+  R package to generate graphically constrained matrices.[![Build Status](https://travis-ci.org/irenecrsn/gmat.svg?branch=master)](https://travis-ci.org/irenecrsn/gmat)
 
 - [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
   An R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
