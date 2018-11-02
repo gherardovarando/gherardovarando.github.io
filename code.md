@@ -59,7 +59,7 @@ The simple template is homemade and you are free to use it
   R package to generate graphically constrained matrices.
 
 - [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
-  An R package for staged event trees 
+  An R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
 
 - [Rbmop](https://github.com/gherardovarando/Rbmop) 
   Density and conditional density estimation with B-spline. 
