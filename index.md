@@ -27,5 +27,8 @@ Copenhagen.
 Probabilistic graphical models and their application to machine learning, in
 particular binary classification problems.
 
+### Preprints 
 
-
+-  Varando G., C. Bielza, P. Larrañaga, E. Riccomagno, 
+   *Markov Property in Generative Classifiers* ,
+    2018  [arxiv](https://arxiv.org/abs/1811.04759) 
