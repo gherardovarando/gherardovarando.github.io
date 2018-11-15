@@ -24,6 +24,13 @@ The simple template is homemade and you are free to use it
  [download](https://github.com/ComputationalIntelligenceGroup/MultiMap/releases)
  and [user
  guide](https://computationalintelligencegroup.github.io/MultiMap-documentation/)
+I am no longer directly developing MultiMap, if you want to use MultiMap capabilities
+I suggest you to use the electrongui app available for download [here](https://github.com/gherardovarando/electrongui-dist/releases), then just manually install the 
+extensions: 
+- mapextension
+- imagejextension
+- regionstatextension
+   
 
 #### Leaflet plugins
 
