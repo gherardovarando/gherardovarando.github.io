@@ -11,6 +11,7 @@ All  code is hosted at github,
 - [R packages](#r-packages)
 - [ImageJ and FIJI plugins](#imagej-plugins)
 - [Atom packages](#atom-packages)
+- [node-js modules](#node-modules) 
 - [electrongui](#electrongui)
 
 The present personal site is built using Jekyll. 
@@ -89,6 +90,12 @@ extensions:
 #### Atom packages
 
 - [map-viewer](https://atom.io/packages/map-viewer)
+
+#### Node modules
+
+- [simple.graphs.js](https://github.com/gherardovarando/graphs.js) [![Build Status](https://travis-ci.com/gherardovarando/graphs.js.svg?branch=master)](https://travis-ci.com/gherardovarando/graphs.js)
+[![npm version](https://badge.fury.io/js/simple.graphs.js.svg)](https://badge.fury.io/js/simple.graphs.js)
+A simple simple graph utility in js 
 
 #### electrongui 
 
