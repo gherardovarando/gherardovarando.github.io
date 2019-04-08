@@ -17,7 +17,7 @@ title: Publications
   orthogonalization method for simulating covariance and concentration graph
   matrices*, PGM 2018: PMLR, 72:61-72, 2018.
   [link](http://proceedings.mlr.press/v72/cordoba18a.html)
-- Varando, G., R. Benavides-Piccione, A. Muñoz,A. Kastanauskaite, C. Bielza, P. Larrañaga, J. DeFelipe, *MultiMap: A tool to automatically extract and analyze spatial microscopic data from large stacks of confocal microscopy images*, Frontiers in Neuroanatomy, accepted, 2018 [link](https://www.frontiersin.org/articles/10.3389/fnana.2018.00037/abstract).   
+- Varando, G., R. Benavides-Piccione, A. Muñoz,A. Kastanauskaite, C. Bielza, P. Larrañaga, J. DeFelipe, *MultiMap: A tool to automatically extract and analyze spatial microscopic data from large stacks of confocal microscopy images*, Frontiers in Neuroanatomy, accepted, 2018 [link](https://www.frontiersin.org/articles/10.3389/fnana.2018.00037/abstract) [data](https://data.broadinstitute.org/bbbc/BBBC044/). 
 
 ####  2016 
 
