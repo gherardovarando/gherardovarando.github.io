@@ -4,6 +4,9 @@ title: Publications
 ---
 #### Preprints 
 
+- Cordoba I., G. Varando, C. Bielza, P. Larrañaga, 
+  *Generating random Gaussian graphical models*, 
+   2019 [arxiv](https://arxiv.org/abs/1909.01062)
 -  Varando G., C. Bielza, P. Larrañaga, E. Riccomagno, 
    *Markov Property in Generative Classifiers* ,
     2018 [arxiv](https://arxiv.org/abs/1811.04759) 
