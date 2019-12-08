@@ -7,7 +7,7 @@ title: Code
   R package to generate graphically constrained matrices.[![Build Status](https://travis-ci.org/irenecrsn/gmat.svg?branch=master)](https://travis-ci.org/irenecrsn/gmat)
 
 - [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
-  An R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
+  R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
 
 --------------------
 ### Old 
