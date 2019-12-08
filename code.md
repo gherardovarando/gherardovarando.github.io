@@ -3,20 +3,16 @@ layout: default
 title: Code 
 ---
 
-All  code is hosted at github,
-[gherardovarando](https://github.com/gherardovarando?tab=repositories).  
+- [gmat](https://github.com/irenecrsn/gmat) (Authors: I. Cordoba and G. Varando)
+  R package to generate graphically constrained matrices.[![Build Status](https://travis-ci.org/irenecrsn/gmat.svg?branch=master)](https://travis-ci.org/irenecrsn/gmat)
 
-- [MultiMap](#multimap)
-- [Leaflet plugins](#leaflet-plugins)
-- [R packages](#r-packages)
-- [ImageJ and FIJI plugins](#imagej-plugins)
-- [Atom packages](#atom-packages)
-- [node-js modules](#node-modules) 
-- [electrongui](#electrongui)
+- [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
+  An R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
 
-The present personal site is built using Jekyll. 
-The simple template is homemade and you are free to use it
-[repo](https://github.com/gherardovarando/gherardovarando.github.io).  
+
+### Old 
+
+A collection of old projects, probably not maintained
 
 #### MultiMap 
 
@@ -63,11 +59,6 @@ extensions:
 
 #### R packages
 
-- [gmat](https://github.com/irenecrsn/gmat) (Authors: I. Cordoba and G. Varando)
-  R package to generate graphically constrained matrices.[![Build Status](https://travis-ci.org/irenecrsn/gmat.svg?branch=master)](https://travis-ci.org/irenecrsn/gmat)
-
-- [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
-  An R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
 
 - [Rbmop](https://github.com/gherardovarando/Rbmop) 
   Density and conditional density estimation with B-spline. 
