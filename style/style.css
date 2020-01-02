@@ -27,13 +27,10 @@ main {
  display: flex;
  left:0;
  top: 0;
- right:0;
- bottom:0;
+ bottom: 0;
  flex-direction: row;
  justify-content: space-between;
 }
-
-
 
 div.title {
  display: inline;
@@ -93,10 +90,13 @@ div.title {
 	.sidebar {
 		 width: 100%;
 		 height: auto;
-		 max-height: 20%;
+		 max-height: 25%;
 	}
 	main {
 		flex-direction: column;
+	}
+	.links {
+		font-size: x-small;
 	}
 	.his {
 		display: none;
