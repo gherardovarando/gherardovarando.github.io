@@ -90,7 +90,7 @@ div.title {
 	.sidebar {
 		 width: 100%;
 		 height: auto;
-		 max-height: 25%;
+		 max-height: 35%;
 	}
 	main {
 		flex-direction: column;
