@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "CoCaLa Team won the Causality 4 Climate NeurIPS competition"
+title:  "CoCaLa Team won Causality 4 Climate NeurIPS competition"
 ---
 
 With an average AUC-ROC score of 0.917 our CoCaLa Team won the 
