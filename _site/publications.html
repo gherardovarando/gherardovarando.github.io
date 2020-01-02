@@ -13,23 +13,67 @@
 
   <body>
 
-    <header>
-      <div class = "title flex-item"> <strong> Gherardo Varando</strong> </div>
-      <!-- <div class = "title flex-item"> <strong> Publications</strong> </div> --!>
-      <a class = "flex-item"  href="/">Home</a> 
-      <a class = "flex-item"  href="/publications">Publications</a>
-      <a class = "flex-item"  href="/code">Code</a>
-      <div class ="flex-item">   </div>
-   </header>
+   
+   <main>
 
-    <main>
+   <aside class = "sidebar"> 
+   <h3> Gherardo Varando </h3>
+   <div class = "menu">
+   <a class = "menu-item"  href="/publications">Publications</a>
+   <a class = "menu-item"  href="/code">Code</a>
+   </div>
+   <img src="/images/me.JPG" alt="Gherardo Varando" width = "95%" 
+   class = "myimg">
+   <div class = "links">
+    
+    <a href="https://orcid.org/0000-0002-6708-1103" class = "links-item">
+     ORCID
+    </a>
+   
+    <a href="https://scholar.google.es/citations?user=ALjiTg0AAAAJ" class = "links-item">
+     Scholar
+    </a>
+   
+    <a href="https://dblp1.uni-trier.de/pers/hd/v/Varando:Gherardo" class = "links-item">
+     dblp
+    </a>
+   
+    <a href="https://www.researchgate.net/profile/Gherardo_Varando" class = "links-item">
+     ResearchGate
+    </a>
+   
+   </div>
+   <hr>
+   <strong> News </strong>
+   <div class = "news">
+     
+       <div class = "news-item">
+       <a href="/2019/12/18/Causality-4-Climate-winners.html">CoCaLa Team won the Causality 4 Climate NeurIPS competition</a>
+       <div class="newsbody">
+       <p>With an average AUC-ROC score of 0.917 our CoCaLa Team won the 
+<a href="https://causeme.uv.es/neurips2019/">Causality 4 Climate NeurIPS competition</a>. 
+You can find our code 
+<a href="https://github.com/sweichwald/CoCaLa-CauseMe-NeurIPS-competition">here</a>.
+And watch the recording of the 
+<a href="https://slideslive.com/38922052/competition-track-day-21">NeurIPS session</a>.</p>
+
+       </div>
+       </div>
+       <hr>
+     
+     </div>
+   </aside>
 
 
+     <article>
      <h2>Publications</h2>
      
      <h4 id="preprints">Preprints</h4>
 
 <ul>
+  <li>Cordoba I., G. Varando, C. Bielza, P. Larrañaga, 
+<em>Generating random Gaussian graphical models</em>, 
+ 2019 <a href="https://arxiv.org/abs/1909.01062">arxiv</a></li>
   <li>Varando G., C. Bielza, P. Larrañaga, E. Riccomagno, 
 <em>Markov Property in Generative Classifiers</em> ,
  2018 <a href="https://arxiv.org/abs/1811.04759">arxiv</a></li>
@@ -45,7 +89,7 @@ IDEAL 2018, LNCS, Accepted, 2018.<a href="https://arxiv.org/abs/1809.00351">link
 orthogonalization method for simulating covariance and concentration graph
 matrices</em>, PGM 2018: PMLR, 72:61-72, 2018.
 <a href="http://proceedings.mlr.press/v72/cordoba18a.html">link</a></li>
-  <li>Varando, G., R. Benavides-Piccione, A. Muñoz,A. Kastanauskaite, C. Bielza, P. Larrañaga, J. DeFelipe, <em>MultiMap: A tool to automatically extract and analyze spatial microscopic data from large stacks of confocal microscopy images</em>, Frontiers in Neuroanatomy, accepted, 2018 <a href="https://www.frontiersin.org/articles/10.3389/fnana.2018.00037/abstract">link</a>.</li>
+  <li>Varando, G., R. Benavides-Piccione, A. Muñoz,A. Kastanauskaite, C. Bielza, P. Larrañaga, J. DeFelipe, <em>MultiMap: A tool to automatically extract and analyze spatial microscopic data from large stacks of confocal microscopy images</em>, Frontiers in Neuroanatomy, accepted, 2018 <a href="https://www.frontiersin.org/articles/10.3389/fnana.2018.00037/abstract">link</a> <a href="https://data.broadinstitute.org/bbbc/BBBC044/">data</a>.</li>
 </ul>
 
 <h4 id="2016">2016</h4>
@@ -64,12 +108,13 @@ matrices</em>, PGM 2018: PMLR, 72:61-72, 2018.
 </ul>
 
     
+     </article>
     </main>
 
-    <footer>
+<!--    <footer>
       <p class="flex-item">&copy; <time>2018</time> Gherardo Varando</p>
     </footer>
-
+-->
     <script src="/scripts/script.js"></script>
   </body>
 

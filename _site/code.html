@@ -13,36 +13,76 @@
 
   <body>
 
-    <header>
-      <div class = "title flex-item"> <strong> Gherardo Varando</strong> </div>
-      <!-- <div class = "title flex-item"> <strong> Code</strong> </div> --!>
-      <a class = "flex-item"  href="/">Home</a> 
-      <a class = "flex-item"  href="/publications">Publications</a>
-      <a class = "flex-item"  href="/code">Code</a>
-      <div class ="flex-item">   </div>
-   </header>
+   
+   <main>
 
-    <main>
+   <aside class = "sidebar"> 
+   <h3> Gherardo Varando </h3>
+   <div class = "menu">
+   <a class = "menu-item"  href="/publications">Publications</a>
+   <a class = "menu-item"  href="/code">Code</a>
+   </div>
+   <img src="/images/me.JPG" alt="Gherardo Varando" width = "95%" 
+   class = "myimg">
+   <div class = "links">
+    
+    <a href="https://orcid.org/0000-0002-6708-1103" class = "links-item">
+     ORCID
+    </a>
+   
+    <a href="https://scholar.google.es/citations?user=ALjiTg0AAAAJ" class = "links-item">
+     Scholar
+    </a>
+   
+    <a href="https://dblp1.uni-trier.de/pers/hd/v/Varando:Gherardo" class = "links-item">
+     dblp
+    </a>
+   
+    <a href="https://www.researchgate.net/profile/Gherardo_Varando" class = "links-item">
+     ResearchGate
+    </a>
+   
+   </div>
+   <hr>
+   <strong> News </strong>
+   <div class = "news">
+     
+       <div class = "news-item">
+       <a href="/2019/12/18/Causality-4-Climate-winners.html">CoCaLa Team won the Causality 4 Climate NeurIPS competition</a>
+       <div class="newsbody">
+       <p>With an average AUC-ROC score of 0.917 our CoCaLa Team won the 
+<a href="https://causeme.uv.es/neurips2019/">Causality 4 Climate NeurIPS competition</a>. 
+You can find our code 
+<a href="https://github.com/sweichwald/CoCaLa-CauseMe-NeurIPS-competition">here</a>.
+And watch the recording of the 
+<a href="https://slideslive.com/38922052/competition-track-day-21">NeurIPS session</a>.</p>
+
+       </div>
+       </div>
+       <hr>
+     
+     </div>
+   </aside>
 
 
+     <article>
      <h2>Code</h2>
      
-     <p>All  code is hosted at github,
-<a href="https://github.com/gherardovarando?tab=repositories">gherardovarando</a>.</p>
-
-<ul>
-  <li><a href="#multimap">MultiMap</a></li>
-  <li><a href="#leaflet-plugins">Leaflet plugins</a></li>
-  <li><a href="#r-packages">R packages</a></li>
-  <li><a href="#imagej-plugins">ImageJ and FIJI plugins</a></li>
-  <li><a href="#atom-packages">Atom packages</a></li>
-  <li><a href="#node-modules">node-js modules</a></li>
-  <li><a href="#electrongui">electrongui</a></li>
+     <ul>
+  <li>
+    <p><a href="https://github.com/irenecrsn/gmat">gmat</a> (Authors: I. Cordoba and G. Varando)
+R package to generate graphically constrained matrices.<a href="https://travis-ci.org/irenecrsn/gmat"><img src="https://travis-ci.org/irenecrsn/gmat.svg?branch=master" alt="Build Status" /></a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/gherardovarando/stagedtrees">stagedtrees</a> 
+R package for staged event trees <a href="https://travis-ci.com/gherardovarando/stagedtrees"><img src="https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master" alt="Build Status" /></a></p>
+  </li>
 </ul>
 
-<p>The present personal site is built using Jekyll. 
-The simple template is homemade and you are free to use it
-<a href="https://github.com/gherardovarando/gherardovarando.github.io">repo</a>.</p>
+<hr />
+<h3 id="old">Old</h3>
+
+<p>A collection of old projects, probably not maintained</p>
 
 <h4 id="multimap">MultiMap</h4>
 
@@ -99,14 +139,6 @@ microscopy).<a href="https://gherardovarando.github.io/leaflet-multilevel/demo">
 
 <ul>
   <li>
-    <p><a href="https://github.com/irenecrsn/gmat">gmat</a> (Authors: I. Cordoba and G. Varando)
-R package to generate graphically constrained matrices.<a href="https://travis-ci.org/irenecrsn/gmat"><img src="https://travis-ci.org/irenecrsn/gmat.svg?branch=master" alt="Build Status" /></a></p>
-  </li>
-  <li>
-    <p><a href="https://github.com/gherardovarando/stagedtrees">stagedtrees</a> 
-An R package for staged event trees <a href="https://travis-ci.com/gherardovarando/stagedtrees"><img src="https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master" alt="Build Status" /></a></p>
-  </li>
-  <li>
     <p><a href="https://github.com/gherardovarando/Rbmop">Rbmop</a> 
 Density and conditional density estimation with B-spline.</p>
   </li>
@@ -160,12 +192,13 @@ There is a partial online <a href="https://gherardovarando.github.io/electrongui
 
 
     
+     </article>
     </main>
 
-    <footer>
+<!--    <footer>
       <p class="flex-item">&copy; <time>2018</time> Gherardo Varando</p>
     </footer>
-
+-->
     <script src="/scripts/script.js"></script>
   </body>
 
