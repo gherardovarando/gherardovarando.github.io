@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="utf-8"/>
+    <title> stagedtrees v1.0.1 |  </title>
+    <link rel="stylesheet" href="/style/style.css" />
+    <meta name="description" content="Gherardo personal web page"/>
+    <meta name="author" content="Gherardo Varando"/>
+  </head>
+
+  <body>
+   <main>
+   <aside class = "sidebar"> 
+   <h4> Gherardo Varando </h4>
+   <div class = "menu">
+   <a class = "menu-item"  href="/">Home | </a>
+   <a class = "menu-item"  href="/publications">Publications | </a>
+   <a class = "menu-item"  href="/code">Code</a>
+   </div>
+   <img src="/images/me.JPG" alt="Gherardo Varando" width = "95%" 
+   class = "his">
+   <div class = "links">
+    
+    <a href="https://orcid.org/0000-0002-6708-1103" class = "links-item">
+     ORCID |
+    </a>
+   
+    <a href="https://scholar.google.es/citations?user=ALjiTg0AAAAJ" class = "links-item">
+     Scholar |
+    </a>
+   
+    <a href="https://dblp1.uni-trier.de/pers/hd/v/Varando:Gherardo" class = "links-item">
+     dblp |
+    </a>
+   
+    <a href="https://www.researchgate.net/profile/Gherardo_Varando" class = "links-item">
+     ResearchGate |
+    </a>
+   
+   </div>
+   <strong class = "his"> News </strong>
+   <div class = "news his">
+     
+       <div class = "news-item">
+       <a href="/2020/01/13/stagedtrees-v1.0.1.html">stagedtrees v1.0.1</a>
+       <div class="his">
+       <p>The new version of the R-package staged trees is available on
+<a href="https://cran.r-project.org/package=stagedtrees">CRAN</a>.</p>
+
+
+       </div>
+       </div>
+     <hr style="border: 1px solid white; width: 100%;">
+     
+       <div class = "news-item">
+       <a href="/2019/12/18/Causality-4-Climate-winners.html">CoCaLa Team won Causality 4 Climate NeurIPS competition</a>
+       <div class="his">
+       <p>With an average AUC-ROC score of 0.917 our CoCaLa Team won the 
+<a href="https://causeme.uv.es/neurips2019/">Causality 4 Climate NeurIPS competition</a>. 
+You can find our code 
+<a href="https://github.com/sweichwald/CoCaLa-CauseMe-NeurIPS-competition">here</a>.
+And watch the recording of the 
+<a href="https://slideslive.com/38922052/competition-track-day-21">NeurIPS session</a>.</p>
+
+       </div>
+       </div>
+     <hr style="border: 1px solid white; width: 100%;">
+     
+     </div>
+   </aside>
+     <article>
+     <h2>stagedtrees v1.0.1</h2>
+     <p>The new version of the R-package staged trees is available on
+<a href="https://cran.r-project.org/package=stagedtrees">CRAN</a>.</p>
+
+<p>This new version implements some bug fixes and two new functions:
+<code class="highlighter-rouge">get_stage</code> and <code class="highlighter-rouge">get_path</code>.</p>
+
+<p>The new functions can be used to obtain the stage associated to a given
+path or viceversa, the paths relative to a given stage.</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">model</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">PhDArticles</span><span class="p">[,</span><span class="m">1</span><span class="o">:</span><span class="m">3</span><span class="p">]</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">full</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">bhc.sevt</span><span class="w">
+
+</span><span class="n">get_stage</span><span class="p">(</span><span class="n">model</span><span class="p">,</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="n">Articles</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"1-2"</span><span class="p">,</span><span class="n">Gender</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"male"</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## [1] "5"
+</code></pre></div></div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">get_path</span><span class="p">(</span><span class="n">model</span><span class="p">,</span><span class="w"> </span><span class="s2">"Kids"</span><span class="p">,</span><span class="w"> </span><span class="m">5</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##   Articles Gender
+## 1        0   male
+## 3      1-2   male
+## 5       &gt;2   male
+</code></pre></div></div>
+
+<h3 id="news">News</h3>
+
+<ul>
+  <li>fix #73; naive.sevt not passing distance arg</li>
+  <li>fix <code class="highlighter-rouge">indep</code>, probabilities should not be of class table (it was
+triggering a bug in summary)</li>
+  <li>fix <code class="highlighter-rouge">subtree</code>, now removing unused probabilities (it was triggering
+a bug in summary)</li>
+  <li>fixing testing without long double</li>
+  <li>fixing some errors in testing</li>
+  <li>update some tests with unquoted expression</li>
+  <li>new functions <code class="highlighter-rouge">get_stage</code> and <code class="highlighter-rouge">get_path</code> and relative tests</li>
+</ul>
+
+     </article>
+    </main>
+  </body>
+</html>
