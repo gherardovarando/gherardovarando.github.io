@@ -11,7 +11,10 @@ Copenhagen.
 
 ### Research interests 
 
-Gaussian graphical models, graphical models for dynamical systems. 
-Probabilistic graphical models and their application to machine learning, in
-particular binary classification problems.
+* Probabilisitc graphical models
+* Gaussian graphical models
+* Graphical models for dynamical systems
+* Staged event trees, Chain event graphs and asymmetric graphical models 
+
+
 
