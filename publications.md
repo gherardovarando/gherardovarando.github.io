@@ -15,16 +15,18 @@ title: Publications
 
 - Cordoba I., G. Varando, C. Bielza, P. Larrañaga, *A fast
   Metropolis-Hastings method for generating random correlation matrices*,
-  IDEAL 2018, LNCS, Accepted, 2018.[pdf](https://arxiv.org/pdf/1809.00351.pdf)
+  Intelligent Data Engineering and Automated Learning – 
+IDEAL 2018. IDEAL 2018. Lecture Notes in Computer Science, vol 11314.
+[pdf](https://arxiv.org/pdf/1809.00351.pdf)
 - Cordoba I., G. Varando, C. Bielza, P. Larrañaga, *A partial
   orthogonalization method for simulating covariance and concentration graph
   matrices*, PGM 2018: PMLR, 72:61-72, 2018.
-  [pdf](http://proceedings.mlr.press/v72/cordoba18a.pdf)
+  [pdf](http://proceedings.mlr.press/v72/cordoba18a/cordoba18a.pdf)
 - Varando, G., R. Benavides-Piccione, A. Muñoz,A. Kastanauskaite, C. Bielza, 
   P. Larrañaga, J. DeFelipe, 
   *MultiMap: A tool to automatically extract and analyze spatial microscopic data 
   from large stacks of confocal microscopy images*, 
-  Frontiers in Neuroanatomy, accepted, 2018 
+  Frontiers in Neuroanatomy, 12, 2018 
   [pdf](https://www.frontiersin.org/articles/10.3389/fnana.2018.00037/pdf) | 
   [data](https://data.broadinstitute.org/bbbc/BBBC044/). 
 
