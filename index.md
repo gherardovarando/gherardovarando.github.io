@@ -15,6 +15,7 @@ Copenhagen.
 * Gaussian graphical models
 * Graphical models for dynamical systems
 * Staged event trees, Chain event graphs and asymmetric graphical models 
-
+* Parametrizations of the cone of positive definite matrices and applications
+to probabilistic graphical models. 
 
 
