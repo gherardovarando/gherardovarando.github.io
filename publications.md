@@ -4,12 +4,17 @@ title: Publications
 ---
 #### Preprints 
 
+
+- S Weichwald, ME Jakobsen, PB Mogensen, L Petersen, N Thams, G Varando,
+  *Causal structure learning from time series: Large regression 
+   coefficients may predict causal links better in practice 
+   than small p-values*, 2020, [arxiv](https://arxiv.org/abs/2002.09573)   
 - Cordoba I., G. Varando, C. Bielza, P. Larrañaga, 
   *Generating random Gaussian graphical models*, 
-   2019 [pdf](https://arxiv.org/pdf/1909.01062.pdf)
+   2019 [arxiv](https://arxiv.org/abs/1909.01062)
 - Varando G., C. Bielza, P. Larrañaga, E. Riccomagno, 
    *Markov Property in Generative Classifiers* ,
-    2018 [pdf](https://arxiv.org/pdf/1811.04759.pdf) 
+    2018 [arxiv](https://arxiv.org/abs/1811.04759) 
 
 #### 2018
 
