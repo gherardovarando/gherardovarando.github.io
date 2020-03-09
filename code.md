@@ -3,31 +3,13 @@ layout: default
 title: Code 
 ---
 
+#### R packages 
+
 - [gmat](https://github.com/irenecrsn/gmat) (Authors: I. Cordoba and G. Varando)
   R package to generate graphically constrained matrices.[![Build Status](https://travis-ci.org/irenecrsn/gmat.svg?branch=master)](https://travis-ci.org/irenecrsn/gmat)
 
 - [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
   R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
-
---------------------
-### Old 
-
-A collection of old projects, probably not maintained
-
-#### MultiMap 
-
- Application to visualize, edit and analyze spatial data. Developed using
- electrongui.
- [download](https://github.com/ComputationalIntelligenceGroup/MultiMap/releases)
- and [user
- guide](https://computationalintelligencegroup.github.io/MultiMap-documentation/)
-I am no longer directly developing MultiMap, if you want to use MultiMap capabilities
-I suggest you to use the electrongui app available for download [here](https://github.com/gherardovarando/electrongui-dist/releases), then just manually install the 
-extensions: 
-- mapextension
-- imagejextension
-- regionstatextension
-   
 
 #### Leaflet plugins
 
@@ -54,8 +36,33 @@ extensions:
   microscopy).[demo](https://gherardovarando.github.io/leaflet-multilevel/demo) 
 
 - [map.schema.json](https://github.com/gherardovarando/map.schema.json) 
-
   JSON scheme for leaflet maps.
+
+#### Atom packages
+
+- [map-viewer](https://atom.io/packages/map-viewer)
+
+
+--------------------
+### Old 
+
+A collection of old projects, probably not maintained
+
+#### MultiMap 
+
+ Application to visualize, edit and analyze spatial data. Developed using
+ electrongui.
+ [download](https://github.com/ComputationalIntelligenceGroup/MultiMap/releases)
+ and [user
+ guide](https://computationalintelligencegroup.github.io/MultiMap-documentation/)
+I am no longer directly developing MultiMap, if you want to use MultiMap capabilities
+I suggest you to use the electrongui app available for download [here](https://github.com/gherardovarando/electrongui-dist/releases), then just manually install the 
+extensions: 
+- mapextension
+- imagejextension
+- regionstatextension
+
+I will then try to move everything in a package for Atom.
 
 #### R packages
 
@@ -77,10 +84,6 @@ extensions:
   
 - [MapTools](https://github.com/ComputationalIntelligenceGroup/Map_tools) 
  An ImageJ plugin to create and visualize maps (tileLayers).
-
-#### Atom packages
-
-- [map-viewer](https://atom.io/packages/map-viewer)
 
 #### Node modules
 
