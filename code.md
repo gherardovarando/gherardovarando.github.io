@@ -11,6 +11,13 @@ title: Code
 - [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
   R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
 
+
+#### Atom packages
+
+- [map-viewer](https://atom.io/packages/map-viewer) an Atom package for 
+visualizing [map.json](https://github.com/gherardovarando/map.schema.json) file.
+
+
 #### Leaflet plugins
 
 - [leaflet-map-builder](https://github.com/gherardovarando/leaflet-map-builder)
@@ -38,12 +45,6 @@ title: Code
 - [map.schema.json](https://github.com/gherardovarando/map.schema.json) 
   JSON scheme for leaflet maps.
 
-#### Atom packages
-
-- [map-viewer](https://atom.io/packages/map-viewer) an Atom package for 
-visualizing [map.json](https://github.com/gherardovarando/map.schema.json) file.
-
-
 --------------------
 ### Old 
 
@@ -63,7 +64,8 @@ extensions:
 - imagejextension
 - regionstatextension
 
-I will then try to move everything in a package for Atom.
+Hopefully in the (distant) future, almost all capabilities of MultiMap will be 
+replicated by the [map-viewer](https://atom.io/packages/map-viewer) atom package.
 
 #### R packages
 
