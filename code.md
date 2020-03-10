@@ -41,7 +41,7 @@ title: Code
 #### Atom packages
 
 - [map-viewer](https://atom.io/packages/map-viewer) an Atom package for 
-visualizing [map.json] (https://github.com/gherardovarando/map.schema.json) file.
+visualizing [map.json](https://github.com/gherardovarando/map.schema.json) file.
 
 
 --------------------
