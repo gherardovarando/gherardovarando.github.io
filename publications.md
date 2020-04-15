@@ -4,7 +4,9 @@ title: Publications
 ---
 #### Preprints 
 
-
+- F Carli, M Leonelli, E Riccomagno, G Varando, 
+  *The R Package stagedtrees for Structural Learning of Stratified Staged Trees*, 
+  2020, [arxiv](https://arxiv.org/abs/2004.06459)
 - S Weichwald, ME Jakobsen, PB Mogensen, L Petersen, N Thams, G Varando,
   *Causal structure learning from time series: Large regression 
    coefficients may predict causal links better in practice 
