@@ -5,6 +5,9 @@ title: Code
 
 #### R packages 
 
+
+- [gclm](https://github.com/gherardovarando/gclm) 
+  R package to estimate sparse Lyapunov parametrization of covariance matrices 
 - [gmat](https://github.com/irenecrsn/gmat) (Authors: I. Cordoba and G. Varando)
   R package to generate graphically constrained matrices.[![Build Status](https://travis-ci.org/irenecrsn/gmat.svg?branch=master)](https://travis-ci.org/irenecrsn/gmat)
 
