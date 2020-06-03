@@ -6,6 +6,7 @@ title: Publications
 
 - G Varando, NR Hansen, 
   *Graphical continuous Lyapunov models*, 2020,
+  accepted for UAI 2020
   [arxiv](https://arxiv.org/abs/2005.10483)
 - F Carli, M Leonelli, E Riccomagno, G Varando, 
   *The R Package stagedtrees for Structural Learning of Stratified Staged Trees*, 
