@@ -4,7 +4,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <head>
     <meta charset="utf-8"/>
-    <title> tidybench and preprint out |  </title>
+    <title> stagedtrees v1.0.1 |  </title>
     <link rel="stylesheet" href="/style/style.css" />
     <meta name="description" content="Gherardo personal web page"/>
     <meta name="author" content="Gherardo Varando"/>
@@ -112,15 +112,46 @@ And watch the recording of the
      </div>
    </aside>
      <article>
-     <h2>tidybench and preprint out</h2>
-     <p>Causal structure learning from time series: Large regression coefficients may predict causal links better in practice than small p-values <a href="https://arxiv.org/abs/2002.09573">arxiv</a>.</p>
+     <h2>stagedtrees v1.0.1</h2>
+     <p>The new version of the R-package stagedtrees is available on
+<a href="https://cran.r-project.org/package=stagedtrees">CRAN</a>.</p>
 
-<p>Check our code <a href="https://github.com/sweichwald/tidybench/">tidybench</a> and 
-the performance of our algorithms on the <a href="https://causeme.uv.es/rank/">CauseMe</a> 
-benchmarking platform.</p>
+<p>This new version implements some bug fixes and two new functions:
+<code class="highlighter-rouge">get_stage</code> and <code class="highlighter-rouge">get_path</code>.</p>
 
-<p><img src="/images/causalorder.png" alt="causalorder" class="img-post" /></p>
+<p>The new functions can be used to obtain the stage associated to a given
+path or viceversa, the paths relative to a given stage.</p>
 
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">model</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">PhDArticles</span><span class="p">[,</span><span class="m">1</span><span class="o">:</span><span class="m">3</span><span class="p">]</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">full</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">bhc.sevt</span><span class="w">
+
+</span><span class="n">get_stage</span><span class="p">(</span><span class="n">model</span><span class="p">,</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="n">Articles</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"1-2"</span><span class="p">,</span><span class="n">Gender</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"male"</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>## [1] "5"
+</code></pre></div></div>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">get_path</span><span class="p">(</span><span class="n">model</span><span class="p">,</span><span class="w"> </span><span class="s2">"Kids"</span><span class="p">,</span><span class="w"> </span><span class="m">5</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>##   Articles Gender
+## 1        0   male
+## 3      1-2   male
+## 5       &gt;2   male
+</code></pre></div></div>
+
+<h3 id="news">News</h3>
+
+<ul>
+  <li>fix #73; naive.sevt not passing distance arg</li>
+  <li>fix <code class="highlighter-rouge">indep</code>, probabilities should not be of class table (it was
+triggering a bug in summary)</li>
+  <li>fix <code class="highlighter-rouge">subtree</code>, now removing unused probabilities (it was triggering
+a bug in summary)</li>
+  <li>fixing testing without long double</li>
+  <li>fixing some errors in testing</li>
+  <li>update some tests with unquoted expression</li>
+  <li>new functions <code class="highlighter-rouge">get_stage</code> and <code class="highlighter-rouge">get_path</code> and relative tests</li>
+</ul>
 
      </article>
     </main>

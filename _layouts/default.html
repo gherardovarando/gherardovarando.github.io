@@ -21,6 +21,9 @@
    </div>
    <img src="{{site.base_url}}/images/me.JPG" alt="Gherardo Varando" width = "95%" 
    class = "his">
+   {% for x in site.data.mail %}
+	   {{x.mail}} 
+   {% endfor %}
    <div class = "links">
     {% for x in site.data.links %}
     <a href="{{x.link}}" class = "links-item">

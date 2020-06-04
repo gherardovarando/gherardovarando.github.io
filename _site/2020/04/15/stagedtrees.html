@@ -4,7 +4,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <head>
     <meta charset="utf-8"/>
-    <title> tidybench and preprint out |  </title>
+    <title> stagedtrees preprint and new version |  </title>
     <link rel="stylesheet" href="/style/style.css" />
     <meta name="description" content="Gherardo personal web page"/>
     <meta name="author" content="Gherardo Varando"/>
@@ -112,14 +112,24 @@ And watch the recording of the
      </div>
    </aside>
      <article>
-     <h2>tidybench and preprint out</h2>
-     <p>Causal structure learning from time series: Large regression coefficients may predict causal links better in practice than small p-values <a href="https://arxiv.org/abs/2002.09573">arxiv</a>.</p>
+     <h2>stagedtrees preprint and new version</h2>
+     <p>Preprint describing <a href="https://cran.r-project.org/package=stagedtrees">stagedtrees</a> is
+available on <a href="https://arxiv.org/abs/2004.06459">arxiv</a>.</p>
 
-<p>Check our code <a href="https://github.com/sweichwald/tidybench/">tidybench</a> and 
-the performance of our algorithms on the <a href="https://causeme.uv.es/rank/">CauseMe</a> 
-benchmarking platform.</p>
+<p>A new version (1.0.2) of stagedtrees is also available on <a href="https://cran.r-project.org/package=stagedtrees">CRAN</a>, below the summary of changes, in particular a new function
+is available to visualize stage probabilities.</p>
 
-<p><img src="/images/causalorder.png" alt="causalorder" class="img-post" /></p>
+<h1 id="102">1.0.2</h1>
+
+<ul>
+  <li>fix bug in <code class="highlighter-rouge">summary</code>, stages were wrongly matched to probabilities</li>
+  <li>new function <code class="highlighter-rouge">barplot_stages</code> to draw barplots of the 
+floret probabilities. Implemented relative tests.</li>
+  <li>new example in <code class="highlighter-rouge">plot.sevt</code>.</li>
+  <li>now <code class="highlighter-rouge">order</code> can be passed to <code class="highlighter-rouge">staged_ev_tree.bn.fit</code></li>
+  <li><code class="highlighter-rouge">join_zero</code> alias for <code class="highlighter-rouge">join_zero_counts</code></li>
+  <li>more tests</li>
+</ul>
 
 
      </article>

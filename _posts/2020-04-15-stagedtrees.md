@@ -3,7 +3,7 @@ layout: default
 title:  "stagedtrees preprint and new version"
 ---
 
-Preprint describing [stagedtrees]((https://cran.r-project.org/package=stagedtrees) is
+Preprint describing [stagedtrees](https://cran.r-project.org/package=stagedtrees) is
 available on [arxiv](https://arxiv.org/abs/2004.06459). 
 
 A new version (1.0.2) of stagedtrees is also available on [CRAN](https://cran.r-project.org/package=stagedtrees), below the summary of changes, in particular a new function
