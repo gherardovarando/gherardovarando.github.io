@@ -18,11 +18,10 @@ title: Code
   R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
 
 
+#### Leaflet plugins and map visualization 
+
 - [map-viewer](https://atom.io/packages/map-viewer) an Atom package for 
 visualizing [map.json](https://github.com/gherardovarando/map.schema.json) file.
-
-
-#### Leaflet plugins
 
 - [leaflet-map-builder](https://github.com/gherardovarando/leaflet-map-builder)
   [![npmversion](https://badge.fury.io/js/leaflet-map-builder.svg)](https://badge.fury.io/js/leaflet-map-builder)
