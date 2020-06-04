@@ -3,8 +3,10 @@ layout: default
 title: Code 
 ---
 
-#### R packages 
 
+
+- [nodag](https://github.com/gherardovarando/nodag) 
+  Fortran code for structure learning without imposing acyclicity  
 
 - [gclm](https://github.com/gherardovarando/gclm) 
   R package to estimate sparse Lyapunov parametrization of covariance matrices 
@@ -15,8 +17,6 @@ title: Code
 - [stagedtrees](https://github.com/gherardovarando/stagedtrees) 
   R package for staged event trees [![Build Status](https://travis-ci.com/gherardovarando/stagedtrees.svg?branch=master)](https://travis-ci.com/gherardovarando/stagedtrees) 
 
-
-#### Atom packages
 
 - [map-viewer](https://atom.io/packages/map-viewer) an Atom package for 
 visualizing [map.json](https://github.com/gherardovarando/map.schema.json) file.
