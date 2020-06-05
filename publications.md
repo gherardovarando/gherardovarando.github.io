@@ -4,6 +4,9 @@ title: Publications
 ---
 #### Preprints 
 
+- G Varando, 
+  *Learning DAGs without imposing acyclicity*, 2020,
+  [arxiv](https://arxiv.org/abs/2006.03005)
 - G Varando, NR Hansen, 
   *Graphical continuous Lyapunov models*, 2020,
   accepted for UAI 2020
