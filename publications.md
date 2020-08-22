@@ -11,23 +11,32 @@ title: Publications
   *Sparse Cholesky ovariance parametrization for 
    recovering latent structure in ordered data*, 2020,
    [arxiv](https://arxiv.org/abs/2006.01448)
-- G Varando, NR Hansen, 
-  *Graphical continuous Lyapunov models*, 2020,
-  accepted for UAI 2020
-  [arxiv](https://arxiv.org/abs/2005.10483)
 - F Carli, M Leonelli, E Riccomagno, G Varando, 
   *The R Package stagedtrees for Structural Learning of Stratified Staged Trees*, 
   2020, [arxiv](https://arxiv.org/abs/2004.06459)
-- S Weichwald, ME Jakobsen, PB Mogensen, L Petersen, N Thams, G Varando,
-  *Causal structure learning from time series: Large regression 
-   coefficients may predict causal links better in practice 
-   than small p-values*, 2020, [arxiv](https://arxiv.org/abs/2002.09573)   
-- Cordoba I., G. Varando, C. Bielza, P. Larrañaga, 
-  *Generating random Gaussian graphical models*, 
-   2019 [arxiv](https://arxiv.org/abs/1909.01062)
 - G Varando, C Bielza, P Larrañaga, E Riccomagno, 
    *Markov Property in Generative Classifiers* ,
     2018 [arxiv](https://arxiv.org/abs/1811.04759) 
+
+#### 2020
+
+- G Varando, NR Hansen, 
+  *Graphical continuous Lyapunov models*, 2020,
+  Proceedings of the 36thConference on Uncertainty in ArtificialIntelligence (UAI), 
+  PMLR volume 124, 2020
+  [arxiv](https://arxiv.org/abs/2005.10483)
+- S Weichwald, ME Jakobsen, PB Mogensen, L Petersen, N Thams, G Varando,
+  *Causal structure learning from time series: Large regression 
+   coefficients may predict causal links better in practice 
+   than small p-values*, Proceedings of Machine Learning Research 123:27–36, 2020,
+   NeurIPS 2019 Competition and Demonstration Track 
+   [arxiv](https://arxiv.org/abs/2002.09573)   
+   [PMLR](http://proceedings.mlr.press/v123/weichwald20a.html)
+- I Cordoba, G Varando, C Bielza, P Larrañaga, 
+  *Generating random Gaussian graphical models*, 
+   International Journal of Approximate Reasoning, 2020
+   [arxiv](https://arxiv.org/abs/1909.01062)
+   [IJAR](https://www.sciencedirect.com/science/article/abs/pii/S0888613X20302048)
 
 #### 2018
 
