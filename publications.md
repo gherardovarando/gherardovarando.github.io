@@ -36,6 +36,7 @@ title: Publications
 - I Cordoba, C Bielza, P Larrañaga, G Varando, 
   *Sparse Cholesky ovariance parametrization for 
    recovering latent structure in ordered data*, 2020,
+   IEEE Access, doi: 10.1109/ACCESS.2020.3018593. 
    [arxiv](https://arxiv.org/abs/2006.01448)
    [ieee](https://ieeexplore.ieee.org/document/9173666)
 
