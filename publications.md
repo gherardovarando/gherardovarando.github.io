@@ -7,10 +7,6 @@ title: Publications
 - G Varando, 
   *Learning DAGs without imposing acyclicity*, 2020,
   [arxiv](https://arxiv.org/abs/2006.03005)
-- I Cordoba, C Bielza, P Larrañaga, G Varando, 
-  *Sparse Cholesky ovariance parametrization for 
-   recovering latent structure in ordered data*, 2020,
-   [arxiv](https://arxiv.org/abs/2006.01448)
 - F Carli, M Leonelli, E Riccomagno, G Varando, 
   *The R Package stagedtrees for Structural Learning of Stratified Staged Trees*, 
   2020, [arxiv](https://arxiv.org/abs/2004.06459)
@@ -37,6 +33,12 @@ title: Publications
    International Journal of Approximate Reasoning, 2020
    [arxiv](https://arxiv.org/abs/1909.01062)
    [IJAR](https://www.sciencedirect.com/science/article/abs/pii/S0888613X20302048)
+- I Cordoba, C Bielza, P Larrañaga, G Varando, 
+  *Sparse Cholesky ovariance parametrization for 
+   recovering latent structure in ordered data*, 2020,
+   [arxiv](https://arxiv.org/abs/2006.01448)
+   [ieee](https://ieeexplore.ieee.org/document/9173666)
+
 
 #### 2018
 
