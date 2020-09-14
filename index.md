@@ -5,13 +5,12 @@ title: Gherardo Varando
 
 ### Position
 
-PostDoc at the Department of Mathematical Science, University of
-Copenhagen. 
-
+Starting soon a postdoc at University of Valencia, in the 
+[Image and Signal Processing Group](https://isp.uv.es/).  
 
 ### Research interests 
 
-* Probabilisitc graphical models
+* Probabilistic graphical models
 * Gaussian graphical models
 * Graphical models for dynamical systems
 * Staged event trees, Chain event graphs and asymmetric graphical models 
