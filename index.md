@@ -5,7 +5,7 @@ title: Gherardo Varando
 
 ### Position
 
-Starting soon a postdoc at University of Valencia, in the 
+postdoc at University of Valencia, in the 
 [Image and Signal Processing Group](https://isp.uv.es/).  
 
 ### Research interests 
