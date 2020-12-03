@@ -4,7 +4,9 @@ title:  "stagedtrees v2.0.0"
 ---
 
 A major update of stagedtrees (v2.0.0) is available on 
-[CRAN](https://cran.r-project.org/package=stagedtrees). The update will almost surely break any code written with v1.0.2. Functions naming and functions parameters have been updated to simplify user experience. Check the complete changelog for details.
+[CRAN](https://cran.r-project.org/package=stagedtrees).
+
+ The update will almost surely break any code written with v1.0.2. Functions naming and functions parameters have been updated to simplify user experience. Check the complete changelog for details.
 
 # 2.0.0
 
