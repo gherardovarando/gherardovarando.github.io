@@ -30,6 +30,17 @@ main {
 flex: 50%;
 }
 
+.bib {
+
+}
+
+.bib li {
+	margin: 5px;
+	padding: 10px;
+	  border: 2px solid #3465A4;
+  border-radius: 10px;
+}
+
 div.title {
  display: inline;
  font-weight: bold; 
