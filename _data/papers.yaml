@@ -74,6 +74,7 @@ references:
   page: '2725-2749'
   volume: '16'
   issue: '1'
+  pdf: varando15a.pdf 
 
 - id: varando2016decision
   type: article-journal
@@ -119,6 +120,8 @@ references:
   publisher: Frontiers
   page: '37'
   volume: '12'
+  pdf: fnana-12-00037.pdf
+  supplementary: Data_Sheet_1_MultiMapATooltoAutomaticallyExtractandAnalyseSpatialMicroscopicDataFromLargeStacksofConfocalMicroscopyImages.PDF 
 
 - id: cordoba2018partial
   type: paper-conference
@@ -214,6 +217,7 @@ references:
     may predict causal links better in practice than small p-values'
   title-short: Causal structure learning from time series
   container-title: https://arxiv.org/abs/2002.09573
+  arxiv: 2002.09573
 
 - id: carli2020r
   type: article-journal
@@ -229,7 +233,8 @@ references:
   issued:
   - year: 2020
   title: The R package stagedtrees for structural learning of stratified staged trees
-  container-title: arXiv preprint arXiv:2004.06459
+  container-title: arXiv preprint
+  arxiv: 2004.06459
 
 - id: varando2020graphical
   type: paper-conference
@@ -243,6 +248,7 @@ references:
   title: Graphical continuous Lyapunov models
   container-title: Conference on uncertainty in artificial intelligence
   publisher: PMLR
+  arxiv: 2005.10483
   page: '989-998'
 
 - id: cordoba2020sparse
@@ -273,7 +279,8 @@ references:
   issued:
   - year: 2020
   title: Learning DAGs without imposing acyclicity
-  container-title: arXiv preprint arXiv:2006.03005
+  container-title: arXiv preprint
+  arxiv: 2006.03005
 
 - id: carli2020new
   type: article-journal
@@ -287,7 +294,8 @@ references:
   issued:
   - year: 2020
   title: A new class of generative classifiers based on staged tree models
-  container-title: arXiv preprint arXiv:2012.13798
+  container-title: arXiv preprint
+  arxiv: 2012.13798
 
 - id: leonelli2021context
   type: article-journal
@@ -299,5 +307,6 @@ references:
   issued:
   - year: 2021
   title: Context-specific causal discovery for categorical data using staged trees
-  container-title: arXiv preprint arXiv:2106.04416
+  container-title: arXiv preprint
+  arxiv: 2106.04416
 ...
