@@ -21,6 +21,15 @@ main {
  bottom: 0;
 }
 
+.flex-container {
+ display: flex; 
+ flex-wrap: wrap;
+}
+
+.flex-item {
+flex: 50%;
+}
+
 div.title {
  display: inline;
  font-weight: bold; 
@@ -112,6 +121,10 @@ div.title {
 		padding: 5px;
 		padding-top: 20px;
 	}	  
+
+	.flex-item {
+		flex: 100%;
+	}
 
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
