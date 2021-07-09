@@ -1,6 +1,0 @@
-<div class = "menu"> 
-        {% assign pages = site.pages | sort: "weight"  %}      	
-         {% for pg in pages %}{% if pg.title %}{% unless pg.hide %}
-    <a class="menu-item" href="{{ pg.url | relative_url }}">{{ pg.title }}</a>{% endunless %}{% endif %}
-    {% endfor %}
-</div> 

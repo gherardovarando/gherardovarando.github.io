@@ -1,0 +1,303 @@
+---
+references:
+- id: varando2014expressive
+  type: paper-conference
+  author:
+  - family: Varando
+    given: Gherardo
+  - family: Bielza
+    given: Concha
+  - family: Larranaga
+    given: Pedro
+  issued:
+  - year: 2014
+  title: Expressive power of binary relevance and chain classifiers based on bayesian
+    networks for multi-label classification
+  container-title: European workshop on probabilistic graphical models
+  publisher: Springer, Cham
+  page: '519-534'
+
+- id: borchani2015survey
+  type: article-journal
+  author:
+  - family: Borchani
+    given: Hanen
+  - family: Varando
+    given: Gherardo
+  - family: Bielza
+    given: Concha
+  - family: Larranaga
+    given: Pedro
+  issued:
+  - year: 2015
+  title: A survey on multi-output regression
+  container-title: 'Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery'
+  publisher: Wiley Periodicals, Inc Hoboken, USA
+  page: '216-233'
+  volume: '5'
+  issue: '5'
+
+- id: varando2015conditional
+  type: article-journal
+  author:
+  - family: Varando
+    given: Gherardo
+  - family: López-Cruz
+    given: Pedro L
+  - family: Nielsen
+    given: Thomas D
+  - family: Larranaga
+    given: Pedro
+  - family: Bielza
+    given: Concha
+  issued:
+  - year: 2015
+  title: Conditional density approximations with mixtures of polynomials
+  container-title: International Journal of Intelligent Systems
+  page: '236-264'
+  volume: '30'
+  issue: '3'
+
+- id: varando2015decision
+  type: article-journal
+  author:
+  - family: Varando
+    given: Gherardo
+  - family: Bielza
+    given: Concha
+  - family: Larranaga
+    given: Pedro
+  issued:
+  - year: 2015
+  title: Decision boundary for discrete bayesian network classifiers.
+  container-title: J. Mach. Learn. Res.
+  page: '2725-2749'
+  volume: '16'
+  issue: '1'
+
+- id: varando2016decision
+  type: article-journal
+  author:
+  - family: Varando
+    given: Gherardo
+  - family: Bielza
+    given: Concha
+  - family: Larrañaga
+    given: Pedro
+  issued:
+  - year: 2016
+  title: Decision functions for chain classifiers based on bayesian networks for multi-label
+    classification
+  container-title: International Journal of Approximate Reasoning
+  publisher: Elsevier
+  page: '164-178'
+  volume: '68'
+
+- id: varando2018multimap
+  type: article-journal
+  author:
+  - family: Varando
+    given: Gherardo
+  - family: Benavides-Piccione
+    given: Ruth
+  - family: Muñoz
+    given: Alberto
+  - family: Kastanauskaite
+    given: Asta
+  - family: Bielza
+    given: Concha
+  - family: Larrañaga
+    given: Pedro
+  - family: DeFelipe
+    given: Javier
+  issued:
+  - year: 2018
+  title: 'MultiMap: A tool to automatically extract and analyse spatial microscopic
+    data from large stacks of confocal microscopy images'
+  title-short: MultiMap
+  container-title: Frontiers in neuroanatomy
+  publisher: Frontiers
+  page: '37'
+  volume: '12'
+
+- id: cordoba2018partial
+  type: paper-conference
+  author:
+  - family: Córdoba
+    given: Irene
+  - family: Varando
+    given: Gherardo
+  - family: Bielza
+    given: Concha
+  - family: Larrañaga
+    given: Pedro
+  issued:
+  - year: 2018
+  title: A partial orthogonalization method for simulating covariance and concentration
+    graph matrices
+  container-title: International conference on probabilistic graphical models
+  publisher: PMLR
+  page: '61-72'
+
+- id: cordoba2018fast
+  type: paper-conference
+  author:
+  - family: Córdoba
+    given: Irene
+  - family: Varando
+    given: Gherardo
+  - family: Bielza
+    given: Concha
+  - family: Larrañaga
+    given: Pedro
+  issued:
+  - year: 2018
+  title: A fast metropolis-hastings method for generating random correlation matrices
+  container-title: International conference on intelligent data engineering and automated
+    learning
+  publisher: Springer, Cham
+  page: '117-124'
+
+- id: varando2018markov
+  type: article-journal
+  author:
+  - family: Varando
+    given: Gherardo
+  - family: Bielza
+    given: Concha
+  - family: Larrañaga
+    given: Pedro
+  - family: Riccomagno
+    given: Eva
+  issued:
+  - year: 2018
+  title: Markov property in generative classifiers
+  container-title: arXiv preprint arXiv:1811.04759
+
+- id: cordoba2020generating
+  type: article-journal
+  author:
+  - family: Córdoba
+    given: Irene
+  - family: Varando
+    given: Gherardo
+  - family: Bielza
+    given: Concha
+  - family: Larrañaga
+    given: Pedro
+  issued:
+  - year: 2020
+  title: On generating random gaussian graphical models
+  container-title: International Journal of Approximate Reasoning
+  publisher: Elsevier
+  page: '240-250'
+  volume: '125'
+
+- id: weichwald2020causal
+  type: no-type
+  author:
+  - family: Weichwald
+    given: Sebastian
+  - family: Jakobsen
+    given: Martin E
+  - family: Mogensen
+    given: Phillip B
+  - family: Petersen
+    given: Lasse
+  - family: Thams
+    given: Nikolaj
+  - family: Varando
+    given: Gherardo
+  issued:
+  - year: 2020
+  title: 'Causal structure learning from time series: Large regression coefficients
+    may predict causal links better in practice than small p-values'
+  title-short: Causal structure learning from time series
+  container-title: https://arxiv.org/abs/2002.09573
+
+- id: carli2020r
+  type: article-journal
+  author:
+  - family: Carli
+    given: Federico
+  - family: Leonelli
+    given: Manuele
+  - family: Riccomagno
+    given: Eva
+  - family: Varando
+    given: Gherardo
+  issued:
+  - year: 2020
+  title: The r package stagedtrees for structural learning of stratified staged trees
+  container-title: arXiv preprint arXiv:2004.06459
+
+- id: varando2020graphical
+  type: paper-conference
+  author:
+  - family: Varando
+    given: Gherardo
+  - family: Hansen
+    given: Niels Richard
+  issued:
+  - year: 2020
+  title: Graphical continuous lyapunov models
+  container-title: Conference on uncertainty in artificial intelligence
+  publisher: PMLR
+  page: '989-998'
+
+- id: cordoba2020sparse
+  type: article-journal
+  author:
+  - family: Córdoba
+    given: Irene
+  - family: Bielza
+    given: Concha
+  - family: Larrañaga
+    given: Pedro
+  - family: Varando
+    given: Gherardo
+  issued:
+  - year: 2020
+  title: Sparse cholesky covariance parametrization for recovering latent structure
+    in ordered data
+  container-title: IEEE Access
+  publisher: IEEE
+  page: '154614-154624'
+  volume: '8'
+
+- id: varando2020learning
+  type: article-journal
+  author:
+  - family: Varando
+    given: Gherardo
+  issued:
+  - year: 2020
+  title: Learning dags without imposing acyclicity
+  container-title: arXiv preprint arXiv:2006.03005
+
+- id: carli2020new
+  type: article-journal
+  author:
+  - family: Carli
+    given: Federico
+  - family: Leonelli
+    given: Manuele
+  - family: Varando
+    given: Gherardo
+  issued:
+  - year: 2020
+  title: A new class of generative classifiers based on staged tree models
+  container-title: arXiv preprint arXiv:2012.13798
+
+- id: leonelli2021context
+  type: article-journal
+  author:
+  - family: Leonelli
+    given: Manuele
+  - family: Varando
+    given: Gherardo
+  issued:
+  - year: 2021
+  title: Context-specific causal discovery for categorical data using staged trees
+  container-title: arXiv preprint arXiv:2106.04416
+...

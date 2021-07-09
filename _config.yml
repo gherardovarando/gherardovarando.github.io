@@ -3,12 +3,3 @@ description: Gherardo personal web page
 author: Gherardo Varando
 plugins_dir: 
    - jemoji
-
-default: 
-   - 
-     scope:
-       path: ""
-       type: "pages"
-     values:
-       layout: "default"
-
