@@ -4,7 +4,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <head>
     <meta charset="utf-8"/>
-    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.title }}</title>
     <link rel="stylesheet" href="{{site.baseurl}}/style/style.css" />
     <meta name="description" content="{{site.description}}"/>
     <meta name="author" content="{{site.author}}"/>
@@ -12,39 +12,9 @@
 
   <body>
    <main>
-   <aside class = "sidebar"> 
-   <h4> {{site.data.info.name}} </h4>
-   <div class = "menu">
-   <a class = "menu-item"  href="{{site.baseurl}}/">Home | </a>
-   <a class = "menu-item"  href="{{site.baseurl}}/publications">Publications | </a>
-   <a class = "menu-item"  href="{{site.baseurl}}/code">Code</a>
-   </div>
-   <img src="{{site.base_url}}/images/me.JPG" alt="Gherardo Varando" width = "95%" 
-   class = "his">
-   {% for x in site.data.mail %}
-	   {{x.mail}} 
-   {% endfor %}
-   <div class = "links">
-    {% for x in site.data.links %}
-    <a href="{{x.link}}" class = "links-item">
-     {{x.name}} |
-    </a>
-   {% endfor %}
-   </div>
-   <strong class = "his"> News </strong>
-   <div class = "news his">
-     {% for post in site.posts %}
-       <div class = "news-item">
-       <a href="{{ post.url }}">{{ post.title }}</a>
-       <div class="his">
-       {{ post.excerpt }}
-       </div>
-       </div>
-     <hr style="border: 1px solid white; width: 100%;">
-     {% endfor %}
-     </div>
-   </aside>
-     <article>
+
+   {% include topmenu.html %}
+        <article>
      <h2>{{page.title }}</h2>
      {{ content }}
      </article>

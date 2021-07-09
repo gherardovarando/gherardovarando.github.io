@@ -11,3 +11,4 @@ default:
        type: "pages"
      values:
        layout: "default"
+

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Publications
+title: publications
+weight: 2
 ---
 #### Preprints 
 
