@@ -1,9 +1,12 @@
 name: Gherardo Varando
 position: postdoc
 institution:
-            name: Universitat de valencia 
-            link: http://www.uv.es/ 
+        name: Universitat de Valencia 
+        link: http://www.uv.es/ 
 lab: 
-    name: Image and Signal Processing Group 
-    link: https://isp.uv.es/
-
+     name: Image and Signal Processing Group 
+     link: https://isp.uv.es/
+interests: 
+    - probabilistic graphical models
+    - graphical models for dynamical systems
+    - staged event trees and chain event graphs

@@ -11,6 +11,8 @@
       {{ paper.issued[0].year }},
       {% if paper.volume %} <strong>{{ paper.volume }}</strong>,{% endif %}
       {{ paper.page }}.
+      {% if paper.pdf %} <a href="{{paper.pdf}}">pdf</a> {% endif %} 
+      {% if paper.arxiv %} <a href="{{paper.arxiv}}">arxiv</a> {% endif %} 
 </li>
 {% endfor %}
 </ul>
