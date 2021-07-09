@@ -152,7 +152,7 @@ references:
     given: Pedro
   issued:
   - year: 2018
-  title: A fast metropolis-hastings method for generating random correlation matrices
+  title: A fast Metropolis-Hastings method for generating random correlation matrices
   container-title: International conference on intelligent data engineering and automated
     learning
   publisher: Springer, Cham
@@ -228,7 +228,7 @@ references:
     given: Gherardo
   issued:
   - year: 2020
-  title: The r package stagedtrees for structural learning of stratified staged trees
+  title: The R package stagedtrees for structural learning of stratified staged trees
   container-title: arXiv preprint arXiv:2004.06459
 
 - id: varando2020graphical
@@ -240,7 +240,7 @@ references:
     given: Niels Richard
   issued:
   - year: 2020
-  title: Graphical continuous lyapunov models
+  title: Graphical continuous Lyapunov models
   container-title: Conference on uncertainty in artificial intelligence
   publisher: PMLR
   page: '989-998'
@@ -258,7 +258,7 @@ references:
     given: Gherardo
   issued:
   - year: 2020
-  title: Sparse cholesky covariance parametrization for recovering latent structure
+  title: Sparse Cholesky covariance parametrization for recovering latent structure
     in ordered data
   container-title: IEEE Access
   publisher: IEEE
@@ -272,7 +272,7 @@ references:
     given: Gherardo
   issued:
   - year: 2020
-  title: Learning dags without imposing acyclicity
+  title: Learning DAGs without imposing acyclicity
   container-title: arXiv preprint arXiv:2006.03005
 
 - id: carli2020new
