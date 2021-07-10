@@ -8,9 +8,14 @@
       {% endfor %}
       <strong> {{ paper.title }} </strong>,
       <em>{{ paper.container-title }}</em>,
-      {{ paper.issued[0].year }},
+      {% if paper.issued.year %} {{ paper.issued.year }}, 
+      {% elsif paper.issued[0].year %}
+        {{ paper.issued[0].year }},
+      {% endif %}
       {% if paper.volume %} <strong>{{ paper.volume }}</strong>,{% endif %}
-      {{ paper.page }}.
+      {{ paper.page }}
+      {% if paper.DOI %} <a href="https://doi.org/{{paper.DOI}}">doi:{{paper.DOI}}</a> {% endif %} 
+      {% if paper.URL %} <a href="{{paper.URL}}">{{paper.URL}}</a> {% endif %} 
       {% if paper.pdf %} <a href="{{site.baseurl}}/pdf/{{paper.pdf}}">pdf</a> {% endif %} 
       {% if paper.arxiv %} <a href="https://arxiv.org/abs/{{paper.arxiv}}">arXiv:{{paper.arxiv}}</a> {% endif %} 
       {% if paper.supplementary %} <a href="{{site.baseurl}}/pdf/{{paper.supplementary}}">supplementary</a> {% endif %} 
