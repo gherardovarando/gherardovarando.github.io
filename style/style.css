@@ -14,12 +14,6 @@ article {
  overflow: scroll;
 }
 
-main {
- width : 100%;
- left:0;
- top: 0;
- bottom: 0;
-}
 
 .flex-container {
  display: flex; 
@@ -27,11 +21,8 @@ main {
 }
 
 .flex-item {
-flex: 50%;
-}
-
-.bib {
-
+	flex: 45%;
+	padding: 10px;
 }
 
 .bib li {
@@ -130,7 +121,7 @@ div.title {
 
 	article {
 		padding: 5px;
-		padding-top: 20px;
+		padding-top: 40px;
 	}	  
 
 	.flex-item {
@@ -148,7 +139,7 @@ div.title {
 }
 
 @media screen and (max-width: 600px) {
-	.topnav.responsive {position: relative;}
+	.topnav.responsive {position: fixed;}
 	.topnav.responsive .icon {
 		position: absolute;
 		right: 0;
