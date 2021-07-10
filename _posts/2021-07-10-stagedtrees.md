@@ -3,8 +3,6 @@ layout: default
 title:  "stagedtree v2.2.0"
 ---
 
-### stagedtrees v2.2.0  
-
 A new minor version of the `stagedtrees` package is available 
 on [CRAN](https://cran.r-project.org/package=stagedtrees). 
 
