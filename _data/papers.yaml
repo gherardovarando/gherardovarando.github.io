@@ -26,7 +26,7 @@ references:
     given: Gherardo
   - family: Bielza
     given: Concha
-  - family: Larranaga
+  - family: Larrañaga
     given: Pedro
   issued:
   - year: 2015
@@ -46,7 +46,7 @@ references:
     given: Pedro L
   - family: Nielsen
     given: Thomas D
-  - family: Larranaga
+  - family: Larrañaga
     given: Pedro
   - family: Bielza
     given: Concha
@@ -65,12 +65,12 @@ references:
     given: Gherardo
   - family: Bielza
     given: Concha
-  - family: Larranaga
+  - family: Larrañaga
     given: Pedro
   issued:
   - year: 2015
   title: Decision boundary for discrete bayesian network classifiers.
-  container-title: J. Mach. Learn. Res.
+  container-title: Journal of Machine Learning Research
   page: '2725-2749'
   volume: '16'
   issue: '1'
@@ -197,18 +197,18 @@ references:
   volume: '125'
 
 - id: weichwald2020causal
-  type: no-type
+  type: paper-conference
   author:
   - family: Weichwald
     given: Sebastian
-  - family: Jakobsen
-    given: Martin E
+  - family: Emil Jakobsen
+    given: Martin
   - family: Mogensen
-    given: Phillip B
+    given: Phillip Bredahl
   - family: Petersen
     given: Lasse
   - family: Thams
-    given: Nikolaj
+    given: Nikolaj Theodor
   - family: Varando
     given: Gherardo
   issued:
@@ -216,7 +216,11 @@ references:
   title: 'Causal structure learning from time series: Large regression coefficients
     may predict causal links better in practice than small p-values'
   title-short: Causal structure learning from time series
-  container-title: https://arxiv.org/abs/2002.09573
+  container-title: Proceedings of the neurips 2019 competition and demonstration track
+  publisher: PMLR
+  note: 'Neural Information Processing Systems Conference 2019, , NeurIPS 2019 ;
+    Conference date: 08-12-2019 Through 14-12-2019'
+  page: '27-36'
   arxiv: 2002.09573
 
 - id: carli2020r
