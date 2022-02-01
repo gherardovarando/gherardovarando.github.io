@@ -33,7 +33,7 @@ institution:
 
 ## list here the path of bib files     
 bibfiles: 
-      - "bibtex/papers.bib"
+      - "bibtex/bibtex_gherardovarando.bib"
 
 
 #personal links
