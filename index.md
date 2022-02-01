@@ -16,4 +16,4 @@ I am a postdoc at Universitat de Valencia, in the [Image and Signal Processing G
 - causality and causal discovery from spatio-temporal data
 - applications for the Earth sciences
 
-## News  
+## news  
