@@ -6,7 +6,7 @@ weight: 1
 
 ![](images/me.JPG){:width="300px"}
 
-I am a postdoc at Universitat de Valencia, in the [Image and Signal Processing Group](https://www.isp.uv.es)
+I am a postdoc at Universitat de Valencia, in the [Image and Signal Processing Group](https://www.isp.uv.es).
 
 ### research interests
 
