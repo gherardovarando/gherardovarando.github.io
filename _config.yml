@@ -1,5 +1,52 @@
 title: Gherardo Varando
 description: Gherardo personal web page
-author: Gherardo Varando
-plugins_dir: 
-   - jemoji
+email: gherardo.varando@gmail.com
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gherardovarando.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  gherardovarando
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+### defined for web-group-theme
+remote_theme: gherardovarando/web-group-theme
+
+## set  timezone for handling default TZ for events and seminars
+timezone: Europe/Madrid
+
+## 
+future: true
+collections:
+  talks:
+    output: true
+  news:
+    output: true
+
+## short name of the group
+short: GV
+## affiliation 
+institution:
+        name: Universitat de Valeència 
+        link: https://www.uv.es/
+
+## list here the path of bib files     
+bibfiles: 
+      - "bibtex/bibtex_gherardovarando.bib"
+
+
+#personal links
+links: 
+    - name: arXiv
+      url: https://arxiv.org/a/varando_g_1.html
+    - name: ResearchGate
+      url: https://www.researchgate.net/profile/Gherardo_Varando
+    - name: dblp
+      url: https://dblp1.uni-trier.de/pers/hd/v/Varando:Gherardo
+    - name: Scholar
+      url: https://scholar.google.es/citations?user=ALjiTg0AAAAJ
+    - name: ORCID
+      url: https://orcid.org/0000-0002-6708-1103
+    - name: github
+      url: https://github.com/gherardovarando
