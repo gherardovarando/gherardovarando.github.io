@@ -4,7 +4,7 @@ title: Gherardo Varando
 weight: 1
 ---
 
-![](images/me.JPG){:width="300px"}
+{% include image.html width="300px" file="images/me.JPG" %}
 
 I am a postdoc at Universitat de Valencia, in the [Image and Signal Processing Group](https://www.isp.uv.es).
 
