@@ -4,7 +4,7 @@ title: code
 weight: 4
 ---
 
-## Code
+## code
 
 - [nodag](https://github.com/gherardovarando/nodag) 
   Fortran code for structure learning without imposing acyclicity  
