@@ -58,25 +58,21 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@inproceedings{DBLP:conf/uai/VarandoH20,
-  author    = {Gherardo Varando and
-               Niels Richard Hansen},
-  editor    = {Ryan P. Adams and
-               Vibhav Gogate},
-  title     = {Graphical continuous Lyapunov models},
-  booktitle = {Proceedings of the Thirty-Sixth Conference on Uncertainty in Artificial
-               Intelligence, {UAI} 2020, virtual online, August 3-6, 2020},
-  series    = {Proceedings of Machine Learning Research},
-  volume    = {124},
-  pages     = {989--998},
-  publisher = {{AUAI} Press},
-  year      = {2020},
-  url       = {http://proceedings.mlr.press/v124/varando20a.html},
-  timestamp = {Wed, 16 Dec 2020 00:00:00 +0100},
-  biburl    = {https://dblp.org/rec/conf/uai/VarandoH20.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@InProceedings{pmlr-v124-varando20a,
+  title = 	 {Graphical continuous Lyapunov models},
+  author =       {Varando, Gherardo and Richard Hansen, Niels},
+  booktitle = 	 {Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence (UAI)},
+  pages = 	 {989--998},
+  year = 	 {2020},
+  editor = 	 {Peters, Jonas and Sontag, David},
+  volume = 	 {124},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {03--06 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v124/varando20a/varando20a.pdf},
+  url = 	 {https://proceedings.mlr.press/v124/varando20a.html},
+  abstract = 	 {The linear Lyapunov equation of a covariance matrix parametrizes theequilibrium covariance matrix of a stochastic process. This parametrization canbe interpreted as a new graphical model class, and we show how the model classbehaves under marginalization and introduce a method for structure learning via$\ell_1$-penalized loss minimization. Our proposed method is demonstrated tooutperform alternative structure learning algorithms in a simulation study, andwe illustrate its application for protein phosphorylation network reconstruction.}
 }
-
 
 @misc{varando2020learning,
       title={Learning DAGs without imposing acyclicity}, 
@@ -96,29 +92,23 @@
       primaryClass={cs.AI}
 }
 
-@inproceedings{DBLP:conf/nips/WeichwaldJMPTV19,
-  author    = {Sebastian Weichwald and
-               Martin E. Jakobsen and
-               Phillip B. Mogensen and
-               Lasse Petersen and
-               Nikolaj Thams and
-               Gherardo Varando},
-  editor    = {Hugo Jair Escalante and
-               Raia Hadsell},
-  title     = {Causal structure learning from time series: Large regression coefficients
-               may predict causal links better in practice than small p-values},
-  booktitle = {NeurIPS 2019 Competition and Demonstration Track, 8-14 December 2019,
-               Vancouver, Canada. Revised selected papers},
-  series    = {Proceedings of Machine Learning Research},
-  volume    = {123},
-  pages     = {27--36},
-  publisher = {{PMLR}},
-  year      = {2019},
-  url       = {http://proceedings.mlr.press/v123/weichwald20a.html},
-  timestamp = {Tue, 17 Aug 2021 11:59:46 +0200},
-  biburl    = {https://dblp.org/rec/conf/nips/WeichwaldJMPTV19.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+
+@InProceedings{pmlr-v123-weichwald20a,
+  title = 	 {Causal structure learning from time series: Large regression coefficients may predict causal links better in practice than small p-values},
+  author =       {Weichwald, Sebastian and Jakobsen, Martin E. and Mogensen, Phillip B. and Petersen, Lasse and Thams, Nikolaj and Varando, Gherardo},
+  booktitle = 	 {Proceedings of the NeurIPS 2019 Competition and Demonstration Track},
+  pages = 	 {27--36},
+  year = 	 {2020},
+  editor = 	 {Escalante, Hugo Jair and Hadsell, Raia},
+  volume = 	 {123},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {08--14 Dec},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v123/weichwald20a/weichwald20a.pdf},
+  url = 	 {https://proceedings.mlr.press/v123/weichwald20a.html},
+  abstract = 	 {In this article, we describe the algorithms for causal structure learning from time series data that won the Causality 4 Climate competition at the Conference on Neural Information Processing Systems 2019 (NeurIPS). We examine how our combination of established ideas achieves competitive performance on semi-realistic and realistic time series data exhibiting common challenges in real-world Earth sciences data. In particular, we discuss a) a rationale for leveraging linear methods to identify causal links in non-linear systems, b) a simulation-backed explanation as to why large regression coefficients may predict causal links better in practice than small p-values and thus why normalising the data may sometimes hinder causal structure learning. For benchmark usage, we detail the algorithms here and provide implementations at {https://github.com/sweichwald/tidybench}. We propose the presented competition-proven methods for baseline benchmark comparisons to guide the development of novel algorithms for structure learning from time series.}
 }
+
 
 @inproceedings{DBLP:conf/ideal/CordobaVBL18,
   author    = {Irene C{\'{o}}rdoba and
