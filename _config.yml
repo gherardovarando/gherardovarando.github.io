@@ -38,10 +38,10 @@ bibfiles:
 
 #personal links
 links: 
+    - name: scopus
+      url: https://www.scopus.com/authid/detail.uri?authorId=56483301900
     - name: arXiv
       url: https://arxiv.org/a/varando_g_1.html
-    - name: ResearchGate
-      url: https://www.researchgate.net/profile/Gherardo_Varando
     - name: dblp
       url: https://dblp1.uni-trier.de/pers/hd/v/Varando:Gherardo
     - name: Scholar
