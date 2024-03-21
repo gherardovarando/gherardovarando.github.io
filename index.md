@@ -10,6 +10,7 @@ I am a postdoc at Universitat de Valencia, in the [Image and Signal Processing G
 
 ### research interests
 
+- uncertainty quantification
 - probabilistic graphical models
 - graphical models for dynamical systems
 - staged event trees and chain event graphs
