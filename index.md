@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: front
 title: Gherardo Varando 
 weight: 1
 ---
@@ -19,5 +19,3 @@ and a researcher in the
 - staged event trees and chain event graphs
 - causality and causal discovery from spatio-temporal data
 - applications for the Earth sciences
-
-## news  
