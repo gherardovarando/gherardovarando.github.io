@@ -25,7 +25,7 @@ collections:
     output: true
 
 ## short name of the group
-short: GV
+short: ""
 ## affiliation 
 institution:
         name: Universitat de Valeència 
