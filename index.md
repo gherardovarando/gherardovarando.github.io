@@ -6,7 +6,10 @@ weight: 1
 
 {% include image.html width="300px" file="images/me.JPG" %}
 
-I am a postdoc at Universitat de Valencia, in the [Image and Signal Processing Group](https://www.isp.uv.es).
+I am an assistant professor (ayudante doctor) at Universitat de València,
+in the [Department of Statistics and Operational Research](https://www.uv.es/uvweb/statistics-operational-research-department/en/department-statistics-operational-research-1285857926292.html)
+and a researcher in the 
+[Image and Signal Processing Group](https://www.isp.uv.es).
 
 ### research interests
 
